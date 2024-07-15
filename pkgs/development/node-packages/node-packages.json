@@ -1,6 +1,5 @@
 [
-  "@angular/cli"
-, "@antfu/ni"
+  "@antfu/ni"
 , "@astrojs/language-server"
 , "@babel/cli"
 , "@commitlint/cli"

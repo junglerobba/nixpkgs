@@ -7,7 +7,6 @@
   "@webassemblyjs/cli-1.11.1" = "wasm2wast";
 
   # Packages that provide a single executable.
-  "@angular/cli" = "ng";
   "@astrojs/language-server" = "astro-ls";
   "@babel/cli" = "babel";
   "@commitlint/cli" = "commitlint";

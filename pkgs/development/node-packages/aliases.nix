@@ -38,6 +38,7 @@ let
 in
 
 mapAliases {
+  "@angular/cli" = pkgs.angular-cli;
   "@antora/cli" = pkgs.antora; # Added 2023-05-06
   "@bitwarden/cli" = pkgs.bitwarden-cli; # added 2023-07-25
   "@emacs-eask/cli" = pkgs.eask; # added 2023-08-17

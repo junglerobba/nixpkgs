@@ -19,11 +19,6 @@ in
 final: prev: {
   inherit nodejs;
 
-  "@angular/cli" = prev."@angular/cli".override {
-    prePatch = ''
-      export NG_CLI_ANALYTICS=false
-    '';
-  };
 
   "@electron-forge/cli" = prev."@electron-forge/cli".override {
     buildInputs = [ final.node-gyp-build ];
